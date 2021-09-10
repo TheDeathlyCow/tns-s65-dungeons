@@ -1,0 +1,1 @@
+kill @e[tag=dungeon_portal,sort=nearest,limit=1]

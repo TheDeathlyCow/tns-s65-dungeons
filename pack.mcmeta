@@ -1,0 +1,9 @@
+{
+    "pack": {
+        "pack_format" : 6,
+        "description" : {
+            "text": "Modular minigames datapack with autoreset",
+            "color": "yellow"
+        }
+    }
+}

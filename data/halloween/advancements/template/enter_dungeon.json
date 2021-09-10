@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Enter Template",
+            "color": "gray"
+        },
+        "description": {
+            "text": "Enter the Template Dungeon.",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterMansion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "halloween:root"
+}

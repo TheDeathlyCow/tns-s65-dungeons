@@ -1,0 +1,1 @@
+execute align xz run summon marker ~ ~ ~ {Tags:["dungeon_portal","template_overworld_portal"]}

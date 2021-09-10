@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Halloween 2021",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Welcome to the Totally Not Suspicious Season 6.5 Halloween event! Check #tns-newsfeed for more info!",
+            "color": "yellow"
+        },
+        "icon": {
+            "item": "minecraft:carved_pumpkin"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/nether.png"
+    },
+    "criteria": {
+        "on_log_in": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

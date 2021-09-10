@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Defeat Template",
+            "color": "gray"
+        },
+        "description": {
+            "text": "Defeat the Template Dungeon.",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterMansion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "halloween:template/enter_dungeon"
+}

@@ -1,0 +1,55 @@
+[
+    {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+            "hal.playerCount": {
+                "min": 0,
+                "max": {
+                    "type": "minecraft:score",
+                    "target": "this",
+                    "score": "hal.maxPlayers"
+                }
+            },
+            "hal.runCount": {
+                "min": 0,
+                "max": {
+                    "type": "minecraft:score",
+                    "target": "this",
+                    "score": "hal.maxRuns"
+                }
+            }
+        }
+    },
+    {
+        "condition": "minecraft:alternative",
+        "terms": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": "this",
+                    "score": "hal.1stPlyrEntr",
+                    "scale": 1
+                },
+                "range": -1
+            },
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "minecraft:fixed",
+                        "name": "$curr"
+                    },
+                    "score": "hal.1stPlyrEntr",
+                    "scale": 1
+                },
+                "range": {
+                    "min": 0,
+                    "max": 2400
+                }
+            }
+        ]
+    }
+]
