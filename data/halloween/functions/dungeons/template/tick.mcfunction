@@ -1,4 +1,5 @@
+# TODO: IMPLEMENT RESET
+execute if entity @a[tag=indungeon_template,scores={hal.confirmExit=1}] run function halloween:dungeons/template/reset
 
-execute as @a[tag=indungeon_template,scores={hal.confirmExit=1}] in minecraft:overworld run function halloween:dungeons/template/portal/exit
 
 

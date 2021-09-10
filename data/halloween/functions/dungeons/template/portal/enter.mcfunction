@@ -5,7 +5,7 @@ function halloween:inv_restore/save_items
 advancement grant @s only halloween:template/enter_dungeon
 advancement revoke @s only halloween:template/defeated_boss
 
-tellraw @a [{"selector": "@s", "color":"dark_purple"},{"text": " has entered Template Dungeon!","color":"aqua"}]
+tellraw @a [{"selector": "@s", "color":"dark_purple"},{"text": " has entered TEMPLATE_NAME!","color":"aqua"}]
 
 teleport @s 0 64 0
 spawnpoint @s 0 64 0
