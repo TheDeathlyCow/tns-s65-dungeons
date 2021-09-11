@@ -18,6 +18,10 @@
                     "target": "this",
                     "score": "hal.maxRuns"
                 }
+            },
+            "hal.state": {
+                "min": 0,
+                "max": 1
             }
         }
     },

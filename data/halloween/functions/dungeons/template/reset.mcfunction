@@ -1,6 +1,9 @@
 tellraw @a [{"text":"Reset template.","color":"light_purple"}]
-scoreboard players set template hal.1stPlyrEntr -1 
-execute as @a[tag=indungeon_template] in minecraft:overworld run function halloween:dungeons/template/portal/exit
+scoreboard players operation template hal.state = $EMPTY hal.state
 
-### PLUGIN THING - Reset chunks ###
-scoreboard players add template arenas.loadNum 1 
+scoreboard players set template hal.1stPlyrEntr -1 
+execute as @a[tag=playing_template] in minecraft:overworld run function halloween:dungeons/template/portal/exit
+function halloween:dungeons/template/boss/reset
+
+# reset chunks
+function reset:template/_load

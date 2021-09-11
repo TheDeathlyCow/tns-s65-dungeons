@@ -1,5 +1,6 @@
 
-tag @s remove indungeon_template
+tag @s remove playing_template
+tag @s remove leave_template
 
 execute as @e[type=item] if predicate 
 execute if entity @s[advancements={halloween:template/defeated_boss=false}] run function halloween:inv_restore/restore_items
