@@ -28,3 +28,4 @@ scoreboard players set MAX_INT32 hal.CONSTANTS 2147483647
 
 
 function halloween:dungeons/template/load
+function halloween:dungeons/warp/load
