@@ -10,8 +10,8 @@ effect give @s instant_health 1 10
 effect give @s saturation 1 10
 
 tellraw @s [{"text":"Returning to the Overworld...","color":"aqua"}]
-teleport @s 0 64 0
-spawnpoint @s 0 64 0
-playsound minecraft:block.portal.travel master @s 0 64 0
+teleport @s TEMPLATE_OW_POS
+spawnpoint @s TEMPLATE_OW_POS
+playsound minecraft:block.portal.travel master @s TEMPLATE_OW_POS
 
 scoreboard players reset @s hal.confirmExit

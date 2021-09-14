@@ -4,10 +4,19 @@
             "text": "Halloween 2021",
             "color": "gold"
         },
-        "description": {
-            "text": "Welcome to the Totally Not Suspicious Season 6.5 Halloween event! Check #tns-newsfeed for more info!",
-            "color": "yellow"
-        },
+        "description": [
+            {
+                "text": "Welcome to the Totally Not Suspicious Season 6.5 Halloween event! Check #",
+                "color": "yellow"
+            },
+            {
+                "text": "tns-newsfeed",
+                "underlined": true
+            },
+            {
+                "text": " for more info!"
+            }
+        ],
         "icon": {
             "item": "minecraft:carved_pumpkin"
         },

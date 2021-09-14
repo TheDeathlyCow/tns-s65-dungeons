@@ -7,6 +7,7 @@ scoreboard objectives add hal.runCount dummy
 scoreboard objectives add hal.confirmExit trigger
 scoreboard objectives add hal.1stPlyrEntr dummy
 
+function halloween:random/load
 
 #### DUNGEON STATES ####
 # 0 - Empty

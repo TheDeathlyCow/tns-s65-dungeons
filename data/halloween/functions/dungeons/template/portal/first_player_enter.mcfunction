@@ -4,3 +4,5 @@ tellraw @a [{"text":"[!!] ","color":"dark_purple","bold":true},{"text": "All par
 
 
 scoreboard players operation template hal.state = $PLAYERS_IN_DUNGEON hal.state
+
+function halloween:dungeons/template/summon_enemies

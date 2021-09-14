@@ -1,0 +1,1 @@
+execute as @e[tag=warped_mob_marker] at @s run function halloween:dungeons/warp/reset/summon_enemy
