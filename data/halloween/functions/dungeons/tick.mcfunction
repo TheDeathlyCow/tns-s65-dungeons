@@ -1,4 +1,3 @@
-function halloween:dungeons/template/tick
 function halloween:dungeons/warp/tick
 
 function halloween:name_tags/tick

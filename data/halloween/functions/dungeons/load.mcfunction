@@ -30,6 +30,4 @@ scoreboard players set FALSE hal.CONSTANTS 0
 function halloween:random/load
 function halloween:name_tags/load
 
-
-function halloween:dungeons/template/load
 function halloween:dungeons/warp/load

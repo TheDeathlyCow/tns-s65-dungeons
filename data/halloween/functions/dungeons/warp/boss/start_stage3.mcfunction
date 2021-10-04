@@ -3,10 +3,10 @@ summon slime ~ ~-0.25 ~ {Glowing:1b,CustomNameVisible:0b,NoAI:1b,Health:400f,Siz
 
 scoreboard players set $time_since_start warp.timer 0
 execute store result bossbar warped_boss max run attribute @e[tag=warped_boss,limit=1] minecraft:generic.max_health get
-tellraw @a "stage3."
+# tellraw @a "stage3."
 
-scoreboard objectives add debugtemp dummy
-scoreboard objectives setdisplay sidebar debugtemp
-execute store result score x debugtemp run data get entity @s Pos[0]
-execute store result score y debugtemp run data get entity @s Pos[1]
-execute store result score z debugtemp run data get entity @s Pos[2]
+# scoreboard objectives add debugtemp dummy
+# scoreboard objectives setdisplay sidebar debugtemp
+# execute store result score x debugtemp run data get entity @s Pos[0]
+# execute store result score y debugtemp run data get entity @s Pos[1]
+# execute store result score z debugtemp run data get entity @s Pos[2]

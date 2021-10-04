@@ -7,9 +7,9 @@ advancement revoke @s only halloween:warp/defeated_boss
 
 tellraw @a [{"selector": "@s", "color":"dark_purple"},{"text": " has entered Warped Gardens!","color":"aqua"}]
 
-teleport @s 5107 165 5038
-spawnpoint @s 5107 165 5038
-playsound minecraft:block.portal.travel master @s 5107 165 5038
+teleport @s 50 130 50
+spawnpoint @s 50 130 50
+playsound minecraft:block.portal.travel master @s 50 130 50
 
 function halloween:dungeons/warp/count_players
 execute if score warp hal.playerCount matches 1 run function halloween:dungeons/warp/portal/first_player_enter

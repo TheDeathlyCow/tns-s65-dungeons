@@ -8,4 +8,4 @@ function halloween:dungeons/warp/boss/reset
 execute as @e[tag=warped_mob] at @s run function halloween:dungeons/warp/reset/poof
 
 # reset chunks
-function reset:warp/_load
+scoreboard players add $loadNum ld.warp 1
