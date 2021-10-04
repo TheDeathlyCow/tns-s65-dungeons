@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "¿ǝɹǝH ʇǝפ I pᴉp ʍoH",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Defeat the Warped Spirit.",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "minecraft:diamond_sword",
+            "nbt": "{CustomModelData:255}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "defeatedBoss": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "halloween:warp/enter_dungeon"
+}

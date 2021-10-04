@@ -7,8 +7,6 @@ scoreboard objectives add hal.runCount dummy
 scoreboard objectives add hal.confirmExit trigger
 scoreboard objectives add hal.1stPlyrEntr dummy
 
-function halloween:random/load
-
 #### DUNGEON STATES ####
 # 0 - Empty
 # 1 - Players are in, not fighting boss
@@ -26,6 +24,11 @@ scoreboard objectives add hal.CONSTANTS dummy
 scoreboard players set MAX_INT16 hal.CONSTANTS 32767
 scoreboard players set MAX_UINT16 hal.CONSTANTS 65535
 scoreboard players set MAX_INT32 hal.CONSTANTS 2147483647
+scoreboard players set TRUE hal.CONSTANTS 1
+scoreboard players set FALSE hal.CONSTANTS 0
+
+function halloween:random/load
+function halloween:name_tags/load
 
 
 function halloween:dungeons/template/load

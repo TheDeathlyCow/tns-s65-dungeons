@@ -49,8 +49,12 @@ class Dungeon:
 def gen_warped_gardens():
     ow_pos = BlockPos(21, 26, 7)
     ne_pos = BlockPos(8, 128, -10)
-    warp = Dungeon('warp', 'Warped Gardens', ow_pos, ne_pos)
-    warp.generate()
+    warp = Dungeon('warp', 'Warped Village', ow_pos, ne_pos)
+    # warp.generate()
+
+    arena = Arena('warp', 'Warped Village', BlockPos(
+        5094, 159, 5009), BlockPos(5176, 193, 5110))
+    arena.generate()
 
 if __name__ == '__main__':
     gen_warped_gardens()

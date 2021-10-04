@@ -1,1 +1,0 @@
-execute at @e[type=marker,tag=dungeon_portal] run summon firework_rocket ~ ~ ~ {Tags:["dungeon_portal","template_nether_portal"],FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:0,Colors:[I;16711680]}]}}}} 

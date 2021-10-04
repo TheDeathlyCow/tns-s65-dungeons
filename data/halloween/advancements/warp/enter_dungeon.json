@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Warping In",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Enter the Warped Village.",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "minecraft:warped_fungus"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterWarped": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "halloween:root"
+}

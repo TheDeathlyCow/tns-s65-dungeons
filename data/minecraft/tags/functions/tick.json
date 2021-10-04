@@ -1,5 +1,6 @@
 {
     "values": [
-        "halloween:dungeons/tick"
+        "halloween:dungeons/tick",
+        "reset:warp/tick"
     ]
 }
