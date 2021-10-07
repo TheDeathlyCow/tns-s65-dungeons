@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "minecraft:tag",
+                    "name": "halloween:droppable_spawn_eggs",
+                    "expand": true,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:damage_source_properties",
+                            "predicate": {
+                                "is_projectile": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 3,
+                "max": 6
+            },
+            "bonus_rolls": {
+                "min": 1,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "halloween:candy_corn"
+                }
+            ]
+        }
+    ]
+}

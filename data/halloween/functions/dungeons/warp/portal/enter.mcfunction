@@ -5,14 +5,16 @@ function halloween:inv_restore/save_items
 advancement grant @s only halloween:warp/enter_dungeon
 advancement revoke @s only halloween:warp/defeated_boss
 
-tellraw @a [{"selector": "@s", "color":"dark_purple"},{"text": " has entered Warped Gardens!","color":"aqua"}]
+tellraw @a [{"selector": "@s", "color":"dark_purple"},{"text": " has entered the Warped Village!","color":"aqua"}]
 
-teleport @s 50 130 50
-spawnpoint @s 50 130 50
-playsound minecraft:block.portal.travel master @s 50 130 50
+teleport @s ~ ~ ~
+spawnpoint @s ~ ~ ~
+playsound minecraft:block.portal.travel master @s ~ ~ ~
+
 
 function halloween:dungeons/warp/count_players
+forceload add ~-80 ~-80 ~80 ~80
 execute if score warp hal.playerCount matches 1 run function halloween:dungeons/warp/portal/first_player_enter
-
+forceload remove ~-80 ~-80 ~80 ~80
 
 function reset:warp/_join_player

@@ -1,0 +1,23 @@
+{
+    "values": [
+        "minecraft:creeper_spawn_egg",
+        "minecraft:zombie_spawn_egg",
+        "minecraft:skeleton_spawn_egg",
+        "minecraft:spider_spawn_egg",
+        "minecraft:cow_spawn_egg",
+        "minecraft:pig_spawn_egg",
+        "minecraft:sheep_spawn_egg",
+        "minecraft:mooshroom_spawn_egg",
+        "minecraft:llama_spawn_egg",
+        "minecraft:ocelot_spawn_egg",
+        "minecraft:cat_spawn_egg",
+        "minecraft:phantom_spawn_egg",
+        "minecraft:silverfish_spawn_egg",
+        "minecraft:glow_squid_spawn_egg",
+        "minecraft:husk_spawn_egg",
+        "minecraft:salmon_spawn_egg",
+        "minecraft:cod_spawn_egg",
+        "minecraft:pufferfish_spawn_egg",
+        "minecraft:panda_spawn_egg"
+    ]
+}

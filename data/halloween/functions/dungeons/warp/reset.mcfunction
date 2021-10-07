@@ -1,4 +1,4 @@
-tellraw @a [{"text":"Reset warp.","color":"light_purple"}]
+tellraw @a [{"text":"[!!] ","color":"dark_purple","bold":true},{"text":"Commencing reset of the Warped Village!","color":"light_purple","bold":false},{"text":" [!!]"}]
 scoreboard players operation warp hal.state = $EMPTY hal.state
 
 scoreboard players set warp hal.1stPlyrEntr -1 

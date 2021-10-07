@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:sweet_berries"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData:1,isCandyCorn:1b}"
+                },
+                {
+                    "function": "minecraft:set_name",
+                    "name": {
+                        "text": "Candy Corn",
+                        "italic": false
+                    }
+                }
+            ]
+        }
+    ]
+}
