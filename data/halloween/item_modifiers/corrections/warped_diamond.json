@@ -1,0 +1,10 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name": {
+            "text": "Warped Diamond",
+            "color": "dark_purple",
+            "italic": false
+        }
+    }
+]

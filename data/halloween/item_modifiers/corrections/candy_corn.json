@@ -1,0 +1,9 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name": {
+            "text": "Candy Corn",
+            "italic": false
+        }
+    }
+]
