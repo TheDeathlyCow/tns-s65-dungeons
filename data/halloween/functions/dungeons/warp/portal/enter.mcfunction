@@ -1,5 +1,6 @@
 effect give @s instant_health 1 10
 effect give @s saturation 1 10
+gamemode adventure @s
 tag @s add playing_warp
 function halloween:inv_restore/save_items
 advancement grant @s only halloween:warp/enter_dungeon

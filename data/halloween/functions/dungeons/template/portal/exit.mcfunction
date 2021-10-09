@@ -15,3 +15,4 @@ spawnpoint @s TEMPLATE_OW_POS
 playsound minecraft:block.portal.travel master @s TEMPLATE_OW_POS
 
 scoreboard players reset @s hal.confirmExit
+gamemode survival @s

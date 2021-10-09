@@ -1,6 +1,5 @@
 {
     "values": [
-        "halloween:dungeons/load",
-        "reset:warp/reload"
+        "halloween:dungeons/load"
     ]
 }

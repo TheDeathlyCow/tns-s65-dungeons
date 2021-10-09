@@ -1,4 +1,5 @@
 
+gamemode survival @s
 tag @s remove playing_warp
 tag @s remove leave_warp
 

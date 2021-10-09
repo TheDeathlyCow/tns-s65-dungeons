@@ -5,8 +5,6 @@ scoreboard players add warp hal.playerCount 0
 scoreboard players add warp hal.1stPlyrEntr 0
 scoreboard players add warp hal.state 0
 scoreboard players add $time_since_start warp.timer 0
-scoreboard players set $TIME_BETWEEN_SUMMONS warp.timer 600
-
 
 scoreboard players set $IDLE warp.bossState 0
 scoreboard players set $STAGE1 warp.bossState 1

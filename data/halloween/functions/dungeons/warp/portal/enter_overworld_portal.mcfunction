@@ -18,7 +18,7 @@ scoreboard players operation @s hal.state = warp hal.state
 # remove 1 for exclusive bounds check
 scoreboard players remove @s hal.maxPlayers 1
 
-execute if predicate halloween:can_join_party in minecraft:the_nether positioned 50 130 50 run function halloween:dungeons/warp/portal/enter
+execute if predicate halloween:can_join_party in minecraft:the_nether positioned 126 165 70 run function halloween:dungeons/warp/portal/enter
 execute unless predicate halloween:can_join_party run function halloween:dungeons/warp/portal/deny_entry
 
 # reset dungeon constants - dont need to store them
